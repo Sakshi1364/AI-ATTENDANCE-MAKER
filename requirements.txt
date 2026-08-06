@@ -1,4 +1,4 @@
-
+streamlit
 numpy
 pandas
 scikit-learn
@@ -15,3 +15,5 @@ pillow
 streamlit
 
 
+librosa
+resemblyzer
