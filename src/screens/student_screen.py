@@ -108,12 +108,10 @@ def student_dashboard():
                 icon=":material/delete_forever:",
                 key=f"unenroll_{student_id}_{subject_id}",
             ):
-                unenroll_student_to_subject(
-                    student_id,
-                    subject_id,
-                )
+                unenroll_student_to_subject(student_id, subject_id)
                 st.success("Unenrolled successfully!")
                 st.rerun()
+
 
         with cols[i % 2]:
             subject_card(
